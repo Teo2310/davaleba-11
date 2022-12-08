@@ -1,0 +1,101 @@
+.backgroundimg{
+    width: 100vw;
+    height: 100vh;
+    background-image: url("/images/1.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box{
+    width: 40vw;
+    height: 70vh;
+    background: rgb(225, 225, 225, 0.7);
+    border-radius: 20px;
+}
+
+form{
+    /* border: 5px solid red; */
+    width: 60%;
+    height: 80%;
+    margin: 50px auto;
+
+}
+
+.boxinput{
+    width: 100%;
+    height: 45px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+
+}
+
+label{
+    color:hsl(251, 95%, 25%);
+    font-size: 20px;
+    font-weight: bold;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+input{
+    border: none;
+    outline: none;
+    background-color: transparent;
+    border-bottom: 1px solid rgb(0, 0, 0);
+    width: 100%;
+
+}
+
+.gender{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4%;
+    margin-top: 50px;
+}
+
+.birthday{
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.checkbox{
+    display: flex;
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+
+.buttons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30%;
+}
+
+.box1{
+    background-color: purple;
+    border-color: purple;
+    border-radius: 5px;
+    width: 40%;
+    height: 30px;
+    font-size: 14px;
+    color: white;
+    font-weight: bold;
+
+
+}
+
+.box2{
+    background-color: navy;
+    border-color: navy;
+    border-radius: 5px;
+    width: 40%;
+    height: 30px;
+    font-size: 14px;
+    color: white;
+    font-weight: bold;
+}
